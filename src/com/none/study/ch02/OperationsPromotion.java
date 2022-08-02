@@ -44,10 +44,6 @@ public class OperationsPromotion {
 		double doubleValue2 = 12.;
 		double doubleValue3 = doubleValue+doubleValue2;
 		System.out.println(doubleValue3);
-		
-		for(int i=1;i<=3;i++) {
-			System.out.println("java");
-		}
 
 		//byte byteValue4=byteValue+intValue; 큰놈 더하기 작은놈 은 큰놈이다
 		int byteValue4=byteValue+intValue;
