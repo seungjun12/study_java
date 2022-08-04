@@ -51,19 +51,19 @@ public class ArithmeticOperatorExample {
 		sum(4,7,1);
 		sum(7,5,5);
 	
-		average(60,70,85,90,45);
-		average(50,75,70,60,70);
-		average(55,60,64,58,90);
-		average(80,70,63,88,78);
+		average("홍길동",60,70,85,90,45);
+		average("박박박",50,75,70,60,70);
+		average("김김김",55,60,64,58,90);
+		average("이이이",80,70,63,88,78);
 	}//main() end
 	
 	public static void sum(int x, int y, int z) {
 		System.out.println(x + "+" + y + "+" + z + "=" + (x+y+z));
 	}//sum() end
 	
-	public static void average(int eng ,int mat ,int phy,int mus, int ath) {
+	public static void average(String name,int eng ,int mat ,int phy,int mus, int ath) {
 		double result = (double)(eng+mat+phy+mus+ath)/5;
-		System.out.println("평균:" +result);
+		System.out.println("이름:"+name+"  평균:" +result);
 	}//hap end
 
 
