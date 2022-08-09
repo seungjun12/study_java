@@ -5,7 +5,7 @@ public class Ifexample2 {
 	public static void main(String[] args) {
 		
 		int price = 10000;
-		int grade = 3;
+		int grade = 4;
 		
 		if(grade>=5) {
 			System.out.println("정가:" +price +"원" +"할인가:" +price*0.973+"원");
