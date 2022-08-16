@@ -97,7 +97,6 @@ public class ForExample {
 						}else {
 							a+=" ";
 						}//if end
-						
 					}//if end
 				}//for end
 				System.out.println(a);
