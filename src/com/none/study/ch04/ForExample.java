@@ -81,6 +81,33 @@ public class ForExample {
 		
 		//3-1
 		
+		System.out.println("--------------------------");
+		
+		String a ="";
+		
+		for(int b=1;b<=10;b++) {
+			if(b==10) {
+				a="";
+				for(int c=1;c<=10;c++) {
+					if(c==10) {
+						a+="0";
+					}else {
+						if(c%2==1) {
+							a+=Integer.toString(c);
+						}else {
+							a+=" ";
+						}//if end
+						
+					}//if end
+				}//for end
+				System.out.println(a);
+			}else {
+				a+=Integer.toString(b);
+				System.out.println(a);
+			}//if end
+		}//for end
+				
+		
 		
 		
 		
