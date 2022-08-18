@@ -2,7 +2,6 @@ package com.none.study.ch5;
 
 public class ArrayInArrayExample {
 
-	private static int sum;
 
 	public static void main(String[] args) {
 
@@ -24,14 +23,22 @@ public class ArrayInArrayExample {
 			for(int j=0;j<scores[i].length;j++) {
 				sum+=scores[i][j];
 			}
-				System.out.println(name[i]+"평균:"+((double)sum/3));
+				System.out.println(name[i]+"평균:"+(sum/3));
 		}
 		
 		
 		System.out.println("-------------------------------");
 		
 		//과목별 평균
+		//오류가 난다 왜일까?
 		
+		for(int i=1;i<scores[i].length;i++) {
+			int sum2=0;
+			for(int j=1;j<scores.length;j++) {
+				sum2+=scores[i][j];
+			}
+			System.out.println(subject[i]+"평균:"+(sum2/5));
+		}
 		
 		
 		//서로 점수 바꾸기
