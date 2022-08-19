@@ -23,7 +23,7 @@ public class ArrayInArrayExample {
 			for(int j=0;j<scores[i].length;j++) {
 				sum+=scores[i][j];
 			}
-				System.out.println(name[i]+"평균:"+(sum/3));
+				System.out.println(name[i]+"평균:"+((double)sum/3));
 		}
 		
 		
@@ -32,14 +32,27 @@ public class ArrayInArrayExample {
 		//과목별 평균
 		//오류가 난다 왜일까?
 		
-		for(int i=1;i<scores[i].length;i++) {
-			int sum2=0;
-			for(int j=1;j<scores.length;j++) {
-				sum2+=scores[i][j];
+//		for(int i=1;i<scores[i].length;i++) {
+//			int sum=0;
+//			for(int j=1;j<scores.length;j++) {
+//				sum+=scores[i][j];
+//			}
+//			System.out.println(subject[i]+"평균:"+((double)sum/5));
+//		}
+		
+		//과목별 평균 (선생님 버전)
+		
+		int[] sum2 = new int[3];
+		
+		for(int i=0;i<scores.length;i++) {
+			for(int j=0;j<scores[i].length;j++) {
+				sum2[j]+=scores[i][j];
 			}
-			System.out.println(subject[i]+"평균:"+(sum2/5));
 		}
 		
+		for(int i=0;i<sum2.length;i++) {
+			System.out.println(subject[i]+"과목의 평균 점수는:"+((double)sum2[i]/scores.length));
+		}
 		
 		//서로 점수 바꾸기
 
