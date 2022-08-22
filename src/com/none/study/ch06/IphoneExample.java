@@ -12,11 +12,21 @@ public class IphoneExample {
 		iphone.sj();
 		
 		
-		
+		/////////////////////////////////
 		Car car = new Car();
 		
-		System.out.println(car.name);
+		System.out.println("car.name:"+car.name);
 		System.out.println(car.name2[1]);
+		
+		
+		//////////////////////////////////
+		Bag bag = new Bag();
+		
+		System.out.println(bag.name);
+		
+		///////////////////////////////////
+		car.name="소나타";
+		System.out.println("car.name:"+car.name);
 		
 	}//main() end
 }//class end
