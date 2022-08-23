@@ -4,7 +4,6 @@ public class Arithmetic {
 	
 	int a=12;
 	int b=3;
-	private String hap;
 	
 	//덧셈
 	public int sumReturn (int a, int b) {
