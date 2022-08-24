@@ -13,4 +13,6 @@ public class Televison {
 	static {
 		info= company+" " +model;
 	}
+	
+	
 }//class end
