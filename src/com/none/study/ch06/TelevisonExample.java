@@ -19,7 +19,7 @@ public class TelevisonExample {
 		
 		Televison televison = new Televison();
 		System.out.println(televison.version);
-		
+//		성공
 		
 
 	}//main() end
