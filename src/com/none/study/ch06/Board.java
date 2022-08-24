@@ -31,6 +31,10 @@ public class Board {
 		this.hits=hits;
 		this.use=use;
 	}
+	
+	public void say() {
+		System.out.println("name:"+name + "hits:"+hits+"use:"+use);
+	}
 
 	
 }//class end

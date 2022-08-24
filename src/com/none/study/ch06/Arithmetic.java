@@ -57,5 +57,15 @@ public class Arithmetic {
 	public void hap(String name3) {
 		System.out.println(name3);
 	}
+
+	//korean 클래스 참고
+	public String aaa(int a) {
+		return "";
+	}
+	
+	//korean 클래스 참고	
+	static void staticTest() {
+		System.out.println();
+	}
 	
 }//class end

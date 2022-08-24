@@ -22,4 +22,23 @@ public class Korean {
 		
 	}
 	
+	static String nationality="대한민국";
+	
+	static int staticTest(int a) {
+		return a+5;
+	}
+	
+	
+	// static 이 아니라 객체를 생생 해줘야 한다
+	int test() {
+		Arithmetic arithmetic = new Arithmetic();
+		arithmetic.aaa(1);
+		return 1;
+	}
+	
+	//static이라 객체 생성x
+	public void tese1() {
+		Arithmetic.staticTest();
+	}
+	
 }//class end
