@@ -16,5 +16,10 @@ public class Student extends People {
 	public Student() {
 		super(); //없어도 된다
  	}
+	
+	public void say() {
+		System.out.println("name: "+name+"ssn: "+ssn+"studentNo: "+studentNo);
+	}
+	
 
 }
