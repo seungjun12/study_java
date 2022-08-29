@@ -8,13 +8,13 @@ public class SonExample {
 //		Parent sortFirst = new Parent();
 //		Son sortSecond=new Son();
 //		
-//		int[] arr = {1,2,4};
+//		int[] arr = {2,1,4};
 //		
 //		System.out.println("정렬전");
 //		sortFirst.printArr(arr);
 //		System.out.println("정렬후");
-//		sortSecond.SortByAsc(arr);
-		
+//		sortFirst.SortByAsc();
+//		sortFirst.printArr(arr);
 
 		
 	}//main() end
