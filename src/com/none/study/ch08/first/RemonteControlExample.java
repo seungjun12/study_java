@@ -8,17 +8,17 @@ public class RemonteControlExample {
 		
 		
 		
-		RemoteControl remoteControl = new Television();
-		remoteControl.turnOn();
-		remoteControl.setMute(true);
-		remoteControl.setMute(false);
-		remoteControl.setVolume(-10);
-		RemoteControl.changeBattery();
-		remoteControl.turnOff();
+//		RemoteControl remoteControl = new Television();
+//		remoteControl.turnOn();
+//		remoteControl.setMute(true);
+//		remoteControl.setMute(false);
+//		remoteControl.setVolume(-10);
+//		RemoteControl.changeBattery();
+//		remoteControl.turnOff();
 		
 //		Audio audio = new Audio();
 //		Television television = new Television();
-//		
+////		
 ////		audio.turnOn();
 ////		audio.turnOff();
 //		television.turnOn();
