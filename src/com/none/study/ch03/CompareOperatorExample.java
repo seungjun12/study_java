@@ -8,21 +8,21 @@ public class CompareOperatorExample {
 		int num2 = 30;
 		
 		boolean result = (num1==num2);
-		System.out.println(result);
+		System.out.println(result);//true
 		
 		boolean result2 = (num1!=num2);
-		System.out.println(result2);
+		System.out.println(result2);//false
 		
 		boolean result3 = (num1<num2);
-		System.out.println(result3);
+		System.out.println(result3);//false
 		
 		boolean result4 = (num1<=num2);
-		System.out.println(result4);
+		System.out.println(result4);//true
 		
 		boolean result5 = (num1>num2);
-		System.out.println(result5);
+		System.out.println(result5);//false
 		
 		boolean result6 = (num1>=num2);
-		System.out.println(result6);
+		System.out.println(result6);//true
 	}//main() end
 }//class end

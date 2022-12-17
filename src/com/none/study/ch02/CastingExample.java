@@ -31,7 +31,7 @@ public class CastingExample {
 		//int ---> String
 		int intValue2 = 123;
 		String StringValue = Integer.toString(intValue, intValue2);
-		System.out.println(StringValue);
+		System.out.println("int를 string으로 바꾼거:"+StringValue);
 		
 		/* 선생님이 해주신거 */
 		String stringValue = String.valueOf(intValue2);
