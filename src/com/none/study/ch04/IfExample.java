@@ -51,7 +51,7 @@ public class IfExample {
 			}
 		}else {
 			System.out.println("F학점입니다");	
-		}//if end
+		}
 		
 
 		
