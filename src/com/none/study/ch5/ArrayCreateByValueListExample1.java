@@ -11,6 +11,8 @@ public class ArrayCreateByValueListExample1 {
 		for(int i=0;i<score.length;i++) {
 			sum+=score[i];
 		}
+		
+		System.out.println(sum);
 
 		double averege = sum/5;
 		
