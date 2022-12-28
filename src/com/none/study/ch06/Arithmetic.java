@@ -45,7 +45,6 @@ public class Arithmetic {
 	}
 	
 	
-	
 	///////////////////////////////////////////////
 	
 	public String name(String name1,String name2) {
