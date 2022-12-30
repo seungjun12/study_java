@@ -9,7 +9,8 @@ public class BoardExample {
 		Board board3=new Board("동건",20);
 		Board board4=new Board("철수",true);
 		Board board5=new Board("영미",500,false);
-
+  
+		
 		
 		board1.say();
 		board2.say();
