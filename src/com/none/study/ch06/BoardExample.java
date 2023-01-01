@@ -11,7 +11,6 @@ public class BoardExample {
 		Board board5=new Board("영미",500,false);
   
 		
-		
 		board1.say();
 		board2.say();
 		board3.say();
